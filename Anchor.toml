@@ -20,3 +20,108 @@ test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
 address = "BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6"
 program = "/Users/sumangiri/Desktop/ibank/artifacts/arcium_program_0.3.0.so"
+
+[test.validator]
+[[test.genesis]]
+address = "BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6"
+program = "/Users/sumangiri/Desktop/blackjack/artifacts/arcium_program_0.3.0.so"
+
+[[test.validator.account]]
+address = "FHriyvoZotYiFnbUzKFjzRSb2NiaC8RPWY7jtKuKhg65"
+filename = "artifacts/arcium_clock.json"
+
+[[test.validator.account]]
+address = "7MGSS4iKNM4sVib7bDZDJhVqB6EcchPwVnTKenCY1jt3"
+filename = "artifacts/arcium_fee_pool.json"
+
+[[test.validator.account]]
+address = "BoVUVSJAhob2cvM5z4JZTdS6VWRSznh3bbzQD1TFjvDP"
+filename = "artifacts/arx_mint.json"
+
+[[test.validator.account]]
+address = "2QrwExUdu93o8mSdfEh6kvbNLTbN1UnVRrfyjQsDSUPE"
+filename = "artifacts/wallet_acc_2Qrw_SUPE.json"
+
+[[test.validator.account]]
+address = "Fs8scPxUMapRy8LkYcSEVHiv61eU1fSdESuSCBGmBPiz"
+filename = "artifacts/arx_ata_2Qrw_SUPE.json"
+
+[[test.validator.account]]
+address = "57dwyAvLmJbyavr6Y6op8qDjgskY2FsEukt65e3W6zQ1"
+filename = "artifacts/wallet_acc_57dw_6zQ1.json"
+
+[[test.validator.account]]
+address = "2FwCV655Sh57ssPM5e9XP2AbMBJY1C891WSFG4cqALzF"
+filename = "artifacts/wallet_acc_callback_2FwC_ALzF.json"
+
+[[test.validator.account]]
+address = "4Ttu4P5ER2TChWuxrcaMQFeyQpGpjwHBGbxaeYQpdJKA"
+filename = "artifacts/arx_ata_57dw_6zQ1.json"
+
+[[test.validator.account]]
+address = "GhT68CyBpSViW4oWKyi3wzRskrYMyVae5ageKPWPfBKf"
+filename = "artifacts/operator_acc_57dw_6zQ1.json"
+
+[[test.validator.account]]
+address = "ELoRR19zrps1G3UYKcAxr7LKbw3kbqkVUXVY9dETMWN7"
+filename = "artifacts/arx_node_57dw_6zQ1.json"
+
+[[test.validator.account]]
+address = "HSRmNT75L4kyi6saPAFdzCuK5BeCVrMK6TNjTN53DpGx"
+filename = "artifacts/wallet_acc_HSRm_DpGx.json"
+
+[[test.validator.account]]
+address = "98Kf3NDhEk5cT2twJNW3C4vxeQEajeij8WVFH6TD6k6W"
+filename = "artifacts/wallet_acc_callback_98Kf_6k6W.json"
+
+[[test.validator.account]]
+address = "5Crcf54ULkv9wW3GudyciMToUR3DpeZbHUkyhNRhqUJK"
+filename = "artifacts/arx_ata_HSRm_DpGx.json"
+
+[[test.validator.account]]
+address = "5vEQeDLmYJbDerKyHs3f3phrERvxw5RFM7W4pQcswfv1"
+filename = "artifacts/operator_acc_HSRm_DpGx.json"
+
+[[test.validator.account]]
+address = "XdfSwb8ZajhN7CerfBSJVhyfx5fyLtv34QVKSRgMFA9"
+filename = "artifacts/arx_node_HSRm_DpGx.json"
+
+[[test.validator.account]]
+address = "GgSqqAyH7AVY3Umcv8NvncrjFaNJuQLmxzxFxPoPW2Yd"
+filename = "artifacts/cluster_acc_0.json"
+
+[[test.validator.account]]
+address = "89kcWj3uywp3MysKFNiXoZo1yLU8em3idvvXxoYwzrso"
+filename = "artifacts/initialize_accounts_raw_circuit_0.json"
+
+[[test.validator.account]]
+address = "6WYpRQ7V9pLa6ziuUeWASaaNHGaM14cfvhnjCdFoTfmw"
+filename = "artifacts/calculate_rewards_raw_circuit_0.json"
+
+[[test.validator.account]]
+address = "Gi16ZjK2QwuPLjJm3WrEh7SKtvVmgogmn3Qe5Mvf13hz"
+filename = "artifacts/process_payment_raw_circuit_0.json"
+
+[[test.validator.account]]
+address = "5FEguYJsDtM1WAMqxU18djgqyKHuJFotvYKjGipqC2qj"
+filename = "artifacts/check_balance_raw_circuit_0.json"
+
+[[test.validator.account]]
+address = "J8GGCvYFSsc9DBExnr91eFht5T6ZxSSHeaMAswM5dNeZ"
+filename = "artifacts/mxe_keygen_comp_def.json"
+
+[[test.validator.account]]
+address = "2aGNxcpQsuuzf5JKyD72fEnusnXuBgswwejU7iiQhrRr"
+filename = "artifacts/mxe_keygen_comp.json"
+
+[[test.validator.account]]
+address = "3kQ9hWxzDEzxAFXx6MYbRyfq6gQ9vp7tZBE9dAgK85ZV"
+filename = "artifacts/mxe_acc.json"
+
+[[test.validator.account]]
+address = "BepGKB2ki2zBVBGp3ofU2EvyrniziDtnwk4J8hoDvS7m"
+filename = "artifacts/mempool_acc.json"
+
+[[test.validator.account]]
+address = "GNjVQo69UCjyLf7hGwZQHamB2p5RAqG2c1j48QZnn8qs"
+filename = "artifacts/executing_pool_acc.json"
