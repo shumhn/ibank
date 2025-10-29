@@ -30,7 +30,7 @@ describe("Privacy-First Banking Demo", () => {
 
   // Configure the client to use the local cluster
   anchor.setProvider(anchor.AnchorProvider.env());
-  const program = anchor.workspace.Blackjack as Program<Ibank>;
+  const program = anchor.workspace.ibank as Program<Ibank>;
   const provider = anchor.getProvider() as anchor.AnchorProvider;
 
   type Event = anchor.IdlEvents<(typeof program)["idl"]>;
