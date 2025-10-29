@@ -8,7 +8,7 @@ const COMP_DEF_OFFSET_PROCESS_PAYMENT: u32 = comp_def_offset("process_payment");
 const COMP_DEF_OFFSET_CHECK_BALANCE: u32 = comp_def_offset("check_balance");
 const COMP_DEF_OFFSET_CALCULATE_REWARDS: u32 = comp_def_offset("calculate_rewards");
 
-declare_id!("DQxanaqqWcTYvVhrKbeoY6q52NrGksWBL6vSbuVipnS7");
+declare_id!("Hcmhr2Leu8S6XgsjCjXX4yqgHFYP4X7Rvc23kUmmDJ22");
 
 #[arcium_program]
 pub mod ibank {
