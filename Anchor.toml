@@ -21,4 +21,4 @@ test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 [test.validator]
 [[test.genesis]]
 address = "BKck65TgoKRokMjQM3datB9oRwJ8rAj2jxPXvHXUvcL6"
-program = "/Users/sumangiri/Desktop/blackjack/artifacts/arcium_program_0.3.0.so"
+program = "/Users/sumangiri/Desktop/ibank/artifacts/arcium_program_0.3.0.so"

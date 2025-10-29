@@ -10,7 +10,7 @@ if ! pgrep -f "arcium" > /dev/null; then
     echo "❌ ERROR: Arcium localnet is not running!"
     echo ""
     echo "Please start it in another terminal first:"
-    echo "  cd /Users/sumangiri/Desktop/blackjack"
+    echo "  cd /Users/sumangiri/Desktop/ibank"
     echo "  arcup localnet"
     echo ""
     exit 1

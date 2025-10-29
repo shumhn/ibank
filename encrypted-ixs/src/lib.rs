@@ -4,7 +4,7 @@ use arcis_imports::*;
 mod circuits {
     use arcis_imports::*;
 
-    /// Encrypted balance structure - similar to Hand in blackjack
+    /// Encrypted balance structure for privacy-preserving banking
     /// Stores a single u64 balance value encrypted
     pub struct Balance {
         pub amount: u64,

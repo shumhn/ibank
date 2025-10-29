@@ -14,7 +14,7 @@
 
 ### 1. Build the Program
 ```bash
-cd /Users/sumangiri/Desktop/blackjack
+cd /Users/sumangiri/Desktop/ibank
 anchor build
 ```
 
@@ -30,7 +30,7 @@ This will:
 
 ### 3. Update Program ID
 After deployment, update the program ID in:
-- `programs/blackjack/src/lib.rs` (declare_id!)
+- `programs/ibank/src/lib.rs` (declare_id!)
 - `Anchor.toml` ([programs.localnet])
 
 ### 4. Rebuild with New Program ID
