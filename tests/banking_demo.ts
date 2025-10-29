@@ -1,7 +1,7 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { PublicKey, Keypair } from "@solana/web3.js";
-import { Blackjack } from "../target/types/blackjack";
+import { Ibank } from "../target/types/ibank";
 import { randomBytes } from "crypto";
 import {
   awaitComputationFinalization,
@@ -30,7 +30,7 @@ describe("Privacy-First Banking Demo", () => {
 
   // Configure the client to use the local cluster
   anchor.setProvider(anchor.AnchorProvider.env());
-  const program = anchor.workspace.Blackjack as Program<Blackjack>;
+  const program = anchor.workspace.Blackjack as Program<Ibank>;
   const provider = anchor.getProvider() as anchor.AnchorProvider;
 
   type Event = anchor.IdlEvents<(typeof program)["idl"]>;
@@ -402,7 +402,7 @@ describe("Privacy-First Banking Demo", () => {
   // --- Helper Functions for Computation Definition Initialization ---
 
   async function initInitializeAccountsCompDef(
-    program: Program<Blackjack>,
+    program: Program<Ibank>,
     owner: Keypair,
     uploadRawCircuit: boolean,
     offchainSource: boolean
@@ -466,7 +466,7 @@ describe("Privacy-First Banking Demo", () => {
   }
 
   async function initProcessPaymentCompDef(
-    program: Program<Blackjack>,
+    program: Program<Ibank>,
     owner: Keypair,
     uploadRawCircuit: boolean,
     offchainSource: boolean
@@ -530,7 +530,7 @@ describe("Privacy-First Banking Demo", () => {
   }
 
   async function initCheckBalanceCompDef(
-    program: Program<Blackjack>,
+    program: Program<Ibank>,
     owner: Keypair,
     uploadRawCircuit: boolean,
     offchainSource: boolean
@@ -594,7 +594,7 @@ describe("Privacy-First Banking Demo", () => {
   }
 
   async function initCalculateRewardsCompDef(
-    program: Program<Blackjack>,
+    program: Program<Ibank>,
     owner: Keypair,
     uploadRawCircuit: boolean,
     offchainSource: boolean

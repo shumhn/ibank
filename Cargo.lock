@@ -473,16 +473,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "blackjack"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
- "arcium-anchor",
- "arcium-client",
- "arcium-macros",
-]
-
-[[package]]
 name = "blake3"
 version = "1.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1074,6 +1064,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6c49c37c09c17a53d937dfbb742eb3a961d65a994e6bcdcf37e7399d0cc8ab5e"
 dependencies = [
  "digest 0.10.7",
+]
+
+[[package]]
+name = "ibank"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "arcium-anchor",
+ "arcium-client",
+ "arcium-macros",
 ]
 
 [[package]]

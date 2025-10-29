@@ -11,7 +11,7 @@ const COMP_DEF_OFFSET_CALCULATE_REWARDS: u32 = comp_def_offset("calculate_reward
 declare_id!("DQxanaqqWcTYvVhrKbeoY6q52NrGksWBL6vSbuVipnS7");
 
 #[arcium_program]
-pub mod blackjack {
+pub mod ibank {
     use super::*;
 
     /// Initializes the computation definition for account initialization.
